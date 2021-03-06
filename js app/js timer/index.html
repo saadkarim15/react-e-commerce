@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS TIMER</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="timer-container">
+      <div class="timer-wrapper">
+        <div class="title">
+          <h1>Alarm Clock</h1>
+        </div>
+        <div class="timer">
+          <h2>I CAN HAZ TIME??</h2>
+          <span class="time"></span>
+        </div>
+        <div class="image">
+          <img src="img/cats.jpg" alt="" />
+        </div>
+        <div class="alarms">
+          <div class="add-alarm-container">
+            <span>Add an alarm</span>
+            <i id="add-alarm" class="fas fa-plus"></i>
+          </div>
+          <div class="alarms-container"></div>
+        </div>
+        <div class="set-alarm">
+          <button class="submit">PARTY TIME</button>
+        </div>
+        <div class="alarm-sound">
+          <audio>
+            <source src="music/sound7.mp3" type="audio/mp3">
+          </audio>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,200 @@
+/* ----------------------------- IMPORTED FONTS ----------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.center-form {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #54336c;
+}
+
+.center-form .login-container {
+  width: 80%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 16px 20px 6px #38383845;
+}
+
+.login-container .login-wrapper {
+  width: 30%;
+  height: 100%;
+  background: #f9f9f9;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.login-wrapper .return-button {
+  cursor: pointer;
+  margin: 15px 18px;
+  width: fit-content;
+}
+
+.return-button .fa-arrow-left {
+  padding: 4px 5px;
+  border-radius: 50%;
+  border: 1px solid #b5b5b5;
+  font-size: 0.9rem;
+  color: #656565;
+}
+
+.login-wrapper .title {
+}
+
+.login-wrapper .title h3 {
+  margin-bottom: 30px;
+  color: #54336c;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.login-wrapper .login-form {
+  width: 100%;
+  height: 55%;
+}
+
+.login-form form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: 100%;
+  padding: 0px 35px;
+  align-items: center;
+}
+
+.login-form form input {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px 10px;
+  align-items: center;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #afafaf;
+  background: #f9f9f9;
+  font-size: 0.9rem;
+}
+
+.login-form form .email {
+  height: 100%;
+  padding-top: 22px;
+}
+
+.password-form .password {
+  height: 100%;
+  padding-top: 22px;
+}
+
+.login-form form .label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+
+form .label .label-name {
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  transition: 0.3s ease-out;
+  color: #583672;
+}
+
+.login-form form .email-form {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 14px;
+}
+
+.login-form form .password-form .label {
+}
+
+.login-form form .password-form {
+  width: 100%;
+  position: relative;
+  height: 50px;
+}
+
+.login-form form input.login_button {
+  border: none;
+  padding: 8px;
+  width: 105px;
+  background: #583672;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: -1px 9px 16px 2px #b1b1b1;
+  transition: 0.3s ease-out;
+  margin-top: 80px;
+}
+
+.login-form form input.login_button:hover {
+  background: transparent;
+  color: black;
+  transition: 0.3s ease-out;
+}
+
+.login-container .slider-container {
+  width: 70%;
+  height: 100%;
+}
+
+.slider-container .slider-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.slider-wrapper .slider {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/laptop.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 0px 5.2px 5px 0px;
+}
+
+.slider-wrapper .slider .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ff44c25e;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.slider-wrapper .slider h2 {
+  font-size: 3rem;
+  font-weight: 100;
+  color: #fff;
+  z-index: 1;
+}
+
+.slider-wrapper .slider p {
+  font-size: 1.2rem;
+  color: #fff;
+  z-index: 1;
+}
+
+.return-button span {
+  color: #583672;
+  font-size: 0.9rem;
+}

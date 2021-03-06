@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main">
+        <div class="calculator-container">
+            <h1 class="title">Tip Calculator</h1>
+            <div class="calculator-wrapper">
+                <form class="form">
+                    <div class="bill-form">
+                        <label for="text" class="label">
+                          <span class="label-name bill-label">How Much Your Bill</span>
+                        </label>
+                        <input
+                          type="text"
+                          autocomplete="off"
+                          class="bill"
+                        />
+                      </div>
+                      <div class="qualities-container">
+                        <label class="label-name">How was the service</label>
+                        <select value="" class="qualities">
+                            <option id="" data-percent="30">Outstanding</option>
+                            <option id="" data-percent="20">Good</option>
+                            <option id="" data-percent="15">It's Okay</option>
+                            <option id="" data-percent="10">Bad</option>
+                            <option id="" data-percent="5">Terrible</select>
+                        </select>
+                      </div>
+                      <div class="people-form">
+                        <label for="people" class="label">
+                          <span class="label-name people-label">How many people are sharing bill</span>
+                        </label>
+                        <input type="text" class="people" />
+                      </div>
+                      <input type="submit" id="submit" value="Calculate">
+                </form>
+            </div>
+        </div>
+        <div class="amount">
+            
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

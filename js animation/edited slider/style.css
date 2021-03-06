@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.friends__suggestion {
+}
+
+.nearestFriend__title {
+  font-size: 1.3rem;
+}
+
+.friends__profileBox {
+  height: 30vh;
+  display: inline-flex;
+  overflow: hidden;
+  scrollbar-width: none;
+  transform: translateX(0);
+  will-change: transform;
+  transition: transform 0.3s ease-out;
+  cursor: grab;
+}
+
+.friend {
+  width: 33.3vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d2d2d2;
+  position: relative;
+  margin: 0px 1%;
+  user-select: none;
+}
+
+.friend::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 33%;
+  background: #02bca1;
+  z-index: -1;
+  top: 0;
+}
+
+.grabbing {
+  cursor: grabbing;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+
+.profileImg__container {
+  width: 35px;
+  height: 35px;
+  border: 2px solid #02bca1;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.profileImg__container--friend {
+  margin-right: 0;
+  margin-bottom: 20px;
+  border: 2px solid #ffffff;
+  width: 50px;
+  height: 50px;
+}
+
+.profile__img {
+  width: 70px;
+  height: 30px;
+}
+
+.person__nameProfession {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.person__name {
+  margin-bottom: 5px;
+}
+
+.person__profession {
+  color: #989898;
+}
+
+.messageBtn__container {
+  margin-top: 25px;
+}
+
+.message__btn {
+  padding: 10px 12px;
+  background: #02bca1;
+  color: white;
+  font-size: 0.8rem;
+  cursor: pointer;
+}

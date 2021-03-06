@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(214, 214, 214);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7854f6;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.title__user {
+  text-align: center;
+  height: fit-content;
+}
+
+.title__user h2 {
+  text-transform: capitalize;
+}
+
+.message__container {
+  height: 77.2vh;
+  overflow: auto;
+  overflow-x: none;
+}
+
+.flip__container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.inputs__container {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.inputs__container form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  padding: 0px 43px;
+  box-shadow: 0px 0px 2px 1px gainsboro;
+  border-radius: 4px;
+}
+.inputs__container form input {
+  border: 0;
+  outline: none;
+  width: 80%;
+  height: 100%;
+  font-size: 1.2rem;
+}
+
+.inputs__container form button {
+  font-size: 1rem;
+  color: white;
+  border: none;
+  outline: none;
+  background: #7854f6;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
