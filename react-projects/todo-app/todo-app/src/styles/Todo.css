@@ -1,0 +1,56 @@
+.todo__container {
+}
+
+.todo {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
+
+.todo__name {
+  flex: 1 1;
+  padding: 5px;
+  color: black;
+  background: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  height: 33px;
+  display: flex;
+  align-items: center;
+}
+
+.delete__btn {
+  padding: 7.5px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  background: #f11e1e;
+}
+
+.check__btn {
+  padding: 7.5px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  background: #2fc52f;
+}
+
+.todo.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}

@@ -1,0 +1,10 @@
+.screen__container {
+  height: 45%;
+  padding: 10px;
+}
+
+.screen {
+  color: white;
+  font-size: 1.4rem;
+  text-align: right;
+}

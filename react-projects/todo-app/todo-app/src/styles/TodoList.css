@@ -1,0 +1,13 @@
+.todoList__container {
+  width: 45%;
+  margin-top: 70px;
+}
+
+.todo__list {
+  width: 100%;
+  list-style: none;
+}
+
+.todo__list li {
+  margin-bottom: 10px;
+}

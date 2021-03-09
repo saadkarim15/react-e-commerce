@@ -1,0 +1,43 @@
+.todoInput__container {
+  display: flex;
+}
+
+.todoInput__container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo__input {
+  border: none;
+  outline: none;
+  padding: 5px 8px;
+  height: 35px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.todo__submit {
+  border: none;
+  outline: none;
+  width: 35px;
+  height: 35px;
+  background: #804dae;
+  cursor: pointer;
+}
+
+.todo__submit i {
+  display: block;
+  font-size: 1rem;
+  color: white;
+}
+
+.filter__names {
+  margin-left: 20px;
+  border: none;
+  outline: none;
+}
+
+.filter__names option {
+  cursor: pointer;
+}
