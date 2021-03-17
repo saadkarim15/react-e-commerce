@@ -1,0 +1,49 @@
+.product__listers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.list__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box__listing {
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.box-listing i {
+  display: block;
+}
+
+.list__listing {
+  flex: 1;
+  cursor: pointer;
+}
+
+.list__listing i {
+  display: block;
+}
+
+.list__styles {
+  width: 50%;
+}
+
+.sorting__list {
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  border: 2px solid #f1f1f1;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: #7c868e;
+  font-weight: 600;
+}

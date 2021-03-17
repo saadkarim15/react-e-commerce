@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+
+.navbar__container {
+  height: 120px;
+  padding: 0 10%;
+  position: relative;
+}
+
+.nav__bars {
+  height: 100%;
+}
+
+.navbar__one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+}
+
+.logo__container {
+}
+
+.logo {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: black;
+}
+
+.product__search {
+  display: flex;
+  width: 50%;
+}
+
+.search__box {
+  padding: 5px 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-left: 1px solid #c0c0c0;
+  border-top: 1px solid #c0c0c0;
+  border-bottom: 1px solid #c0c0c0;
+  border-radius: 5px 0px 0px 5px !important;
+  -webkit-border-radius: 5px 0px 0px 5px !important;
+  -moz-border-radius: 5px 0px 0px 5px !important;
+  -ms-border-radius: 5px 0px 0px 5px !important;
+  -o-border-radius: 5px 0px 0px 5px !important;
+  font-weight: 600;
+}
+
+.search__btn {
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-right: 1px solid #c0c0c0;
+  border-top: 1px solid #c0c0c0;
+  border-bottom: 1px solid #c0c0c0;
+  background-color: transparent;
+  color: #2e3958;
+  border-radius: 0px 5px 5px 0px;
+  -webkit-border-radius: 0px 5px 5px 0px;
+  -moz-border-radius: 0px 5px 5px 0px;
+  -ms-border-radius: 0px 5px 5px 0px;
+  -o-border-radius: 0px 5px 5px 0px;
+}
+
+.search__btn i {
+  display: block;
+}
+
+.icons {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons i {
+}
+
+.navbar__two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+  flex-wrap: wrap;
+}
+
+.category__container {
+  width: 15%;
+}
+
+.categories {
+  padding: 12px 7px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  width: 100%;
+  outline: none;
+}
+
+.navLinks__container {
+  flex: 1;
+}
+
+.nav__links {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  margin: 0px 8%;
+}
+
+.nav__link {
+  display: block;
+  margin: 0 3%;
+}
+
+.nav__link a {
+  display: flex;
+  text-decoration: none;
+  padding: 7px;
+  font-weight: 600;
+  color: #323c5c;
+}
+
+.deals__offer {
+  width: 195px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hot__deals {
+  color: #ff324d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.hot__deals span {
+  font-size: 0.8rem;
+  font-weight: 900;
+  display: block;
+}
+
+.hot__deals i {
+  display: block;
+}
+
+.offer__zone {
+  width: 45%;
+  display: flex;
+  color: #8b008b;
+}
+
+.offer__zone i {
+  display: block;
+}
+
+.offer__zone span {
+  font-size: 0.8rem;
+  font-weight: 900;
+  display: block;
+}

@@ -1,0 +1,32 @@
+.slider__wrapper {
+  width: 100%;
+  height: 60vh;
+  margin: 10px 0px;
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner__text {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: #242f51;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, -50%);
+  -moz-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  -o-transform: translate(0%, -50%);
+  width: min-content;
+}

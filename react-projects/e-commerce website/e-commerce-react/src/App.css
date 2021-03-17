@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin: 60px 0px;
+  padding: 0 10%;
+  display: flex;
+}
+
+.main__right {
+  width: 70%;
+  padding-left: 14%;
+}
+
+.main__left {
+  width: 30%;
+}

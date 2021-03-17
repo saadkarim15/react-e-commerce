@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Poppins&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(120deg, #ffefa0, #fca652);
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.title,
+form,
+.todo-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  margin: 40px 0px;
+}
+
+form {
+  height: 20%;
+}
+
+.todo-list-container {
+  height: 30%;
+}
+
+.todo-input,
+.todo-button {
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+.todo-button {
+  padding: 7px;
+  transition: 0.3s ease-in;
+}
+
+.todo-button {
+  cursor: pointer;
+  background: #ff9329;
+  transition: 0.3s ease-out;
+}
+
+.todo-button i {
+  font-size: 1rem;
+}
+
+.todo-button:hover {
+  background: white;
+}
+
+.todo-button:hover i {
+  color: #ff9329;
+}
+
+.todo-list-container {
+  list-style: none;
+}
+
+.todo {
+  display: flex;
+  margin: 10px;
+  transition: 0.5s ease-in-out;
+}
+
+.checkButton,
+.trashButton {
+  padding: 4px 9px;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.checkButton i,
+.trashButton i {
+  pointer-events: none;
+}
+
+.todo .checkButton {
+  background: #52ee88;
+  cursor: pointer;
+}
+
+.todo .trashButton {
+  background: #f50a1a;
+  cursor: pointer;
+}
+
+.todo-item {
+  width: 180px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  color: black;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.5;
+  transition: 0.5s ease-in-out;
+}
+
+.fall {
+  transform: translateY(8rem) rotateZ(20deg);
+  opacity: 0;
+}
+select {
+  border: none;
+  outline: none;
+  margin-left: 20px;
+  padding: 4px;
+  cursor: pointer;
+}
+

@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- ---------------------------- IMPORTED SLIDER CSS ----------------------------- -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- --------------------------- FONTAWSOME CDN ---------------------------- -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <!-- ---------------------------- CUSTOMIZE CSS ---------------------------- -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body onload="loaderFinish()">
+    <!-- ---------------------------- LOADER START ----------------------------- -->
+    <div class="loader-container">
+      <div class="loader">
+        <div class="circule">
+          <div class="point"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------------- LOADER FINISH ---------------------------- -->
+
+    <!-- ---------------------------- HEADER START ----------------------------- -->
+
+    <header class="container">
+      <!-- ----------------------------- INTRO START ----------------------------- -->
+
+      <div class="intro">
+        <div class="intro-text">
+          <h1 class="hide"><span class="text">Have a Great</span></h1>
+          <h1 class="hide"><span class="text">Experience With</span></h1>
+          <h1 class="hide"><span class="text">Us</span></h1>
+        </div>
+      </div>
+      <div class="slider"></div>
+
+      <!-- ---------------------------- INTRO FINISH ----------------------------- -->
+
+      <!-- -------------------------- NAVIGATION START --------------------------- -->
+      <section class="nav-container">
+        <nav class="navbar">
+          <div class="logo">
+            <h1><a href="#">Carousel</a></h1>
+          </div>
+          <div class="ul-holder">
+            <ul class="menus">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Mens</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="profile_cart">
+            <i class="fas fa-user-alt">
+              <ul class="user-login-signup">
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Sign Up</a></li>
+              </ul>
+            </i>
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <section class="hamburger">
+            <div class="line firstLine"></div>
+            <div class="line secondLine"></div>
+            <div class="line thirdLine"></div>
+          </section>
+        </nav>
+      </section>
+
+      <!-- ------------------------- NAVIGATION FINISH -------------------------- -->
+
+      <!-- --------------------- CAROUSEL TOUCH SLIDER START --------------------- -->
+
+      <section class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide1" data-hash="slide1">
+            <div class="ellipse">
+              <img src="img/slider-1.png" alt="" />
+            </div>
+            <div class="swiper-description">
+              <h1>Classic Shoe</h1>
+              <p>New Collection Of Winter</p>
+              <div class="buttons">
+                <button>Buy Now</button>
+                <button>Add To Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide2" data-hash="slide2">
+            <div class="ellipse">
+              <img src="img/slider-2.png" alt="" />
+            </div>
+            <div class="swiper-description">
+              <h1>Adidas Hoddie</h1>
+              <p>New Collection Of Winter</p>
+              <div class="buttons">
+                <button>Buy Now</button>
+                <button>Add To Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide3" data-hash="slide3">
+            <div class="ellipse">
+              <img src="img/slider-3.png" alt="" />
+            </div>
+            <div class="swiper-description">
+              <h1>Backpack</h1>
+              <p>Travelling Bag</p>
+              <div class="buttons">
+                <button>Buy Now</button>
+                <button>Add To Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide4" data-hash="slide4">
+            <div class="ellipse">
+              <img src="img/slider-4.png" alt="" />
+            </div>
+            <div class="swiper-description">
+              <h1>Classic Watch</h1>
+              <p>Fashion Of Today</p>
+              <div class="buttons">
+                <button>Buy Now</button>
+                <button>Add To Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide5" data-hash="slide5">
+            <div class="ellipse">
+              <img src="img/slider-5.png" alt="" />
+            </div>
+            <div class="swiper-description">
+              <h1>Sunglasses</h1>
+              <p>Fashion Of Today</p>
+              <div class="buttons">
+                <button>Buy Now</button>
+                <button>Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="fas fa-angle-right"></div>
+        <div class="fas fa-angle-left"></div>
+      </section>
+
+      <!-- -------------------- CAROUSEL TOUCH SLIDER FINISH --------------------- -->
+    </header>
+    <!-- ---------------------------- HEADER FINISH ---------------------------- -->
+
+    <!-- --------------------------- CATEGORIES SECTION START --------------------------- -->
+
+    <div class="categories-container">
+      <div class="categories">
+        <div class="title">
+          <h1>Categories</h1>
+        </div>
+        <div class="categories-wrapper">
+          <div class="category-1-wrapper category-wrapper">
+            <div class="category-1 category">
+              <img src="img/casualwear-category.jpg" alt="" />
+              <div class="description">
+                <h2>Casual Wear</h2>
+                <button><a href="#">Shop Now</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="category-2-wrapper category-wrapper">
+            <div class="category-2 category">
+              <img src="img/classicwear-category.jpg" alt="" />
+              <div class="description">
+                <h2>Classic Wear</h2>
+                <button><a href="#">Shop Now</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="category-3-wrapper category-wrapper">
+            <div class="category-3 category">
+              <img src="img/officewear-category.jpg" alt="" />
+              <div class="description">
+                <h2>Office Wear</h2>
+                <button><a href="#">Shop Now</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="category-4-wrapper category-wrapper">
+            <div class="category-4 category">
+              <img src="img/sportswear-category.jpg" alt="" />
+              <div class="description">
+                <h2>Sport Wear</h2>
+                <button><a href="#">Shop Now</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="category-5-wrapper category-wrapper">
+            <div class="category-5 category">
+              <img src="img/vintagewear-category.jpg" alt="" />
+              <div class="description">
+                <h2>Vintage Wear</h2>
+                <button><a href="#">Shop Now</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="category-6-wrapper category-wrapper">
+            <div class="category-6 category">
+              <img src="img/chicwear-category.jpg" alt="" />
+              <div class="description">
+                <h2>Chic Wear</h2>
+                <button><a href="#">Shop Now</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------------------- CATEGORIES SECTION FINISH --------------------------- -->
+
+    <!-- -------------------------- OFFER TIMER START -------------------------- -->
+
+    <section class="timer-container">
+      <div class="timer">
+        <div class="timer-title">
+          <h2>The Winter Sell Will Start</h2>
+          <span>in</span>
+        </div>
+        <div class="countdown">
+          <h2>00 : 00 : 00 : 00</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------- OFFER TIMER Finish -------------------------- -->
+
+    <!-- -------------------- SHOPPING ITEMS SECTION START --------------------- -->
+
+    <section class="shopping-card_sidebar-wrapper">
+      <div class="shopping-card_sidebar">
+        <div class="sticky-sidebar-container">
+          <div class="sticky-sidebar">
+            <ul class="sidebar-list-items">
+              <li class="title"><a href="#">All Products</a></li>
+              <li class="title"><a href="#">New Collection</a></li>
+              <hr />
+              <li>
+                <div class="search-bar">
+                  <input type="text" placeholder="Search" id="search-product" />
+                  <i class="fas fa-search"></i>
+                </div>
+              </li>
+              <li><a href="#">T-Shirt</a></li>
+              <li><a href="#">Jeans</a></li>
+              <li><a href="#">Skrits</a></li>
+              <li><a href="#">Flat</a></li>
+              <li><a href="#">Sandals</a></li>
+              <li><a href="#">Heels</a></li>
+              <li><a href="#">Sportswear</a></li>
+              <li><a href="#">Shoes</a></li>
+              <li><a href="#">Watch</a></li>
+              <li><a href="#">Tops</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="shopping-cards-container">
+          <div class="card-category-name">
+            <span class="active-category" href="#">All</span>
+            <span href="#">Sale</span>
+            <span href="#">New Arrivals</span>
+          </div>
+          <div class="product-cards">
+            <div class="card">
+              <div class="imgs">
+                <img src="img/product-1-blue.jpg" alt="" class="first-img" />
+                <img src="img/product-1.jpg" alt="" class="second-img" />
+              </div>
+              <div class="description">
+                <div class="price_title">
+                  <h2>T-shirt</h2>
+                  <span>10$</span>
+                </div>
+                <p>Lorem, ipsum dolor.</p>
+                <div class="buttons">
+                  <button class="add-to-cart">
+                    <a href="#">Add To Cart</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgs">
+                <img
+                  src="img/product-2-shoe-white.jpg"
+                  alt=""
+                  class="first-img"
+                />
+                <img
+                  src="img/product-2-shoe-black-white.jpg"
+                  alt=""
+                  class="second-img"
+                />
+              </div>
+              <div class="description">
+                <div class="price_title">
+                  <h2>Shoes</h2>
+                  <span>60$</span>
+                </div>
+                <p>Lorem, ipsum dolor.</p>
+                <div class="buttons">
+                  <button class="add-to-cart">
+                    <a href="#">Add To Cart</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgs">
+                <img src="img/product-3-show.jpg" alt="" class="first-img" />
+                <img src="img/product-3-wear.jpg" alt="" class="second-img" />
+              </div>
+              <div class="description">
+                <div class="price_title">
+                  <h2>Mountain Bag</h2>
+                  <span>100$</span>
+                </div>
+                <p>Lorem, ipsum dolor.</p>
+                <div class="buttons">
+                  <button class="add-to-cart">
+                    <a href="#">Add To Cart</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgs">
+                <img src="img/product-4-sandle.jpg" alt="" class="first-img" />
+                <img
+                  src="img/product-4-snadle-ling.jpg"
+                  alt=""
+                  class="second-img"
+                />
+              </div>
+              <div class="description">
+                <div class="price_title">
+                  <h2>Sandle</h2>
+                  <span>200$</span>
+                </div>
+                <p>Lorem, ipsum dolor.</p>
+                <div class="buttons">
+                  <button class="add-to-cart">
+                    <a href="#">Add To Cart</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgs">
+                <img
+                  src="img/product-5-sportwear-man.jpg"
+                  alt=""
+                  class="first-img"
+                />
+                <img
+                  src="img/product-5-sportwear.jpg"
+                  alt=""
+                  class="second-img"
+                />
+              </div>
+              <div class="description">
+                <div class="price_title">
+                  <h2>SportWear</h2>
+                  <span>80$</span>
+                </div>
+                <p>Lorem, ipsum dolor.</p>
+                <div class="buttons">
+                  <button class="add-to-cart">
+                    <a href="#">Add To Cart</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgs">
+                <img src="img/product-6-watch.jpg" alt="" class="first-img" />
+                <img src="img/product-6-watch2.jpg" alt="" class="second-img" />
+              </div>
+              <div class="description">
+                <div class="price_title">
+                  <h2>Watch</h2>
+                  <span>300$</span>
+                </div>
+                <p>Lorem, ipsum dolor.</p>
+                <div class="buttons">
+                  <button class="add-to-cart">
+                    <a href="#">Add To Cart</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgs">
+                <img
+                  src="img/product-7-sunglass.jpg"
+                  alt=""
+                  class="first-img"
+                />
+                <img
+                  src="img/product-7-sunglass2.jpg"
+                  alt=""
+                  class="second-img"
+                />
+              </div>
+              <div class="description">
+                <div class="price_title">
+                  <h2>Sunglass</h2>
+                  <span>200$</span>
+                </div>
+                <p>Lorem, ipsum dolor.</p>
+                <div class="buttons">
+                  <button class="add-to-cart">
+                    <a href="#">Add To Cart</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgs">
+                <img
+                  src="img/product-8-headphone.jpg"
+                  alt=""
+                  class="first-img"
+                />
+                <img
+                  src="img/product-8-headphone2.jpg"
+                  alt=""
+                  class="second-img"
+                />
+              </div>
+              <div class="description">
+                <div class="price_title">
+                  <h2>Headphone</h2>
+                  <span>70$</span>
+                </div>
+                <p>Lorem, ipsum dolor.</p>
+                <div class="buttons">
+                  <button class="add-to-cart">
+                    <a href="#">Add To Cart</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgs">
+                <img
+                  src="img/product-9-jeans-back.jpg"
+                  alt=""
+                  class="first-img"
+                />
+                <img src="img/product-9-jeans.jpg" alt="" class="second-img" />
+              </div>
+              <div class="description">
+                <div class="price_title">
+                  <h2>Jeans</h2>
+                  <span>55$</span>
+                </div>
+                <p>Lorem, ipsum dolor.</p>
+                <div class="buttons">
+                  <button class="add-to-cart">
+                    <a href="#">Add To Cart</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------- SHOPPING ITEMS SECTION FINISH -------------------- -->
+
+    <!-- ---------------------- NEWSLETTER SECTION START ----------------------- -->
+
+    <section class="newsletter-container">
+      <div class="newsletter-wrapper">
+        <div class="newsletter">
+          <div class="newsletter-title-description">
+            <h2>Newsletter</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="newsletter-form">
+            <input
+              class="email"
+              type="email"
+              placeholder="Your Email"
+              required
+            />
+            <input class="submit" type="submit" value="Send" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------- NEWSLETTER SECTION FINISH ---------------------- -->
+
+    <!-- ----------------------- IMPORTED SLIDER JAVASCRIPT CDN ----------------------- -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- --------------------------- IMPORTED JS CDN --------------------------- -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+      integrity="sha512-HzAEuXwhLxwm/Jj+5ecdjzrRVrjuh2ZeIxyT1Ln37TO5pWNMnKBuU7cfd1wvRQ/k86w1oC174Yk1T7aRlBpIcA=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- ------------------------ CUSTOMIZE JAVASCRIPT ------------------------- -->
+    <script src="app.js"></script>
+  </body>
+</html>
